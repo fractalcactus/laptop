@@ -1,0 +1,16 @@
+fancy_echo "Cleaning up old Homebrew formulae ..."
+brew cleanup
+brew cask cleanup
+
+brew bundle --file=- <<eof
+brew "direnv"
+cask "1password"
+cask "alfred"
+cask "firefox"
+cask "chromedriver"
+cask "slack"
+cask "visual-studio-code"
+cask "vlc"
+eof
+
+
