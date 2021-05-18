@@ -2,6 +2,7 @@ fancy_echo "Cleaning up old Homebrew formulae ..."
 brew cleanup
 brew cask cleanup
 
+fancy_echo "Updating more Homebrew formulae ..."
 brew bundle --file=- <<eof
 brew "direnv"
 cask "1password"
