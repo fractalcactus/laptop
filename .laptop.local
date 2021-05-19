@@ -3,15 +3,15 @@ brew cleanup
 brew cask cleanup
 
 fancy_echo "Updating more Homebrew formulae ..."
-brew bundle --file=- <<eof
-brew "direnv"
-cask "1password"
-cask "alfred"
-cask "firefox"
-cask "chromedriver"
-cask "slack"
-cask "visual-studio-code"
-cask "vlc"
-eof
+brew install direnv
+brew install --cask 1password
+brew install --cask alfred
+brew install --cask firefox
+brew install --cask chromedriver
+brew install --cask slack
+brew install --cask visual-studio-code
+brew install --cask vlc
+brew install --cask dropbox
+
 
 

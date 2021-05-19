@@ -234,3 +234,28 @@ We are [available for hire][hire].
 
 [community]: https://thoughtbot.com/community?utm_source=github
 [hire]: https://thoughtbot.com?utm_source=github
+Gabrielle's Laptop
+======
+Mac Settings
+------------
+- go through every mac setting
+  - remap caps to esc
+  - set background
+  - shrink and move dock
+  - turn off all notifications
+- clean up the dock
+
+Manual Install + Configuration
+--------------
+- Install [vanilla](https://matthewpalmer.net/vanilla/), log into pro version, clean up top bar
+- Log in to Firefox account
+- Set up Alfred, make sure workflows are working
+  - Set up a `~/Documents/Screenshots` dir for Alfred workflow
+- Log in to Trello
+- Paste in terminal : `defaults write com.apple.notificationcenterui bannerTime -int 2`
+- Spectacle
+
+Dotfile setup
+-------------
+
+
